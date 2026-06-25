@@ -24,6 +24,7 @@ All notable changes to this project will be documented in this file.
 
 ### Feat
 
+- Webhook Simulator for Testing (#747) ([6fa3e1a](6fa3e1a7ed78e593ac8bbc771620774da1efa076))
 - Add responsive mobile card grid for events (#713) ([81f54e4](81f54e4c97e1b19d66471045b091cd4a1e5fa71d))
 - Mobile navigation drawer (#700) ([9bd9cfb](9bd9cfba5b1e15bb6dbd563d54711d18ddf9b493))
 - Implemented event batch operations (#699) ([c1b6833](c1b68338fdb3e078b05cdd12fd1d499b7049a1ef))
@@ -36,6 +37,7 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
+- API performance improvements - gzip compression, N+1 detection, query caching, DB explain endpoint (#749) ([3bacec5](3bacec5a5c098398ae9c1e9dc412d34c7625ea43))
 - Payload compression, tracing, and DLQ observability (#743) ([3e050ca](3e050ca965ad4949dd1197ddec66f35cc15729de))
 - Resolve webhook headers, health checks, event filters, and dupl… (#734) ([e8ae880](e8ae880d1536978d63d4cee3ae71cc353854a499))
 - Add KeyboardShortcutsOverlay component and integrate into Providers (#732) ([55f03ef](55f03efd50381ca94eef82038ecfe216a4ac5c92))
@@ -145,6 +147,7 @@ All notable changes to this project will be documented in this file.
 
 ### Miscellaneous Tasks
 
+- Update changelog (#744) ([2b59977](2b59977bd9d61d2751d6fe9d1fb561a89c3b1510))
 - Clean tracked environment artifacts ([63e7b58](63e7b58b8648e937cfaa0a1e9509f7f5098a290a))
 - Configure pre-commit hooks for black, flake8, and isort (Closes #374) (#442) ([a4722da](a4722da830252ce28e8d081330aba3e5e2abd1a6))
 - Remove venv from tracking and add to .gitignore ([f9cfe5f](f9cfe5f16ebc8986cec7fe4c7e3b218a80f544fe))
